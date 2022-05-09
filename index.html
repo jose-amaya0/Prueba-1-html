@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+    <title>Mi primera Web</title>
+</head>
+<body>
+
+    <!--Tablas-->
+    <table>
+        <tr> <!--Crea una fila dentro de la tabla-->
+            <th>Producto</th> <!--pone una etiqueta en la fila-->
+            <th>Precio</th>
+
+        </tr>
+        <tr>
+            <td>Hola beats</td> <!--Etiqueta que agrega elementos estandar dentro de la tabla-->
+            <td>Es gartis</td>
+        </tr>
+        <tr>
+            <td>Chanchito feliz</td>
+            <td>19,90$</td>
+        </tr>
+        <tr>
+            <td>Chanchito feliz muy feliz</td>
+            <td>29,90$</td>
+        </tr>
+    </table>
+
+
+    <!--ul es lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+
+     <!--ol es lista  ordenada-->
+     <ol>
+        <li value ="20">Elemento 1</li> <!--Para empezar desde otro num el oreden-->
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>          <!--Lista anidada-->
+                <li style ="list-style-type: lower-roman;">Sub elemento 1</li>
+                <li style ="list-style-type: lower-roman;">Sub elemento 2</li>
+                <li style ="list-style-type: lower-roman;">Sub elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+
+    <form action="/formulario" method="get">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Chanchito feliz..."/>
+        <br>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Chanchito triste ..."/>
+        <br> <br>
+        <label for="comentario">Comentario</label> <br>
+        <textarea cols="50" rows="10" name="comentario" id="comentario" 
+        placeholder="Ingrese Comentario"></textarea> <!--Crea un area para escribir algo, un ccomentario por ejemplo-->
+        <br>
+        <input type="submit"/> <!--Crea un boton toma todos los datos del formulario y los envia al servidor-->
+        <button type="button">Tipo Boton</button>
+        <button type= "reset"> Tipo Reset</button>
+        <button type="submit">Tipo Submit</button>
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segungo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Chanchito feliz</h6>
+    <p>Chanchito feliz esta muy feliz.</p>
+    <p>Chanchito triste esta muy triste.</p>
+    <hr>
+    <h2>Chanchito Felipe</h2>
+    <p>Este texto es <span style="color: blue;"> mucho mas largo</span>
+         y es para mostrar <br><br> la etiqueta de span</p>
+    <!--este texto es un comentario y no va a aprecer en el explorador-->
+    <a target="_blank" href="https://www.google.com">Ir a Google</a>
+    <img src="img/coffe.png" width="400"/>
+    
+</body>
+</html>
